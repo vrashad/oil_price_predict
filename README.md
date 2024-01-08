@@ -23,6 +23,7 @@ Buradakı **CL=F** finance.yahoo da xam neftin adıdır
 Skript icra edildikdən sonra **dataset.csv** faylı tərtib edilərək, 24 il ərzində neftin gündəlik qiymətləri fayla yazılacaq.
 
 Cədvəl iki sütundan ibarət olacaq
-**Date**: tarix
+
+**Date**: tarix<br>
 **Adj Close**: həmin tarixdəki neftin qiyməti
  
