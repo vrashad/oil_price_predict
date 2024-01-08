@@ -48,7 +48,7 @@ Sonra müxtəlif vaxt seriyası məlumat dəstlərinin ardıcıl təlim və test
 
 Məlumatları təlim və test olaraq ikiyə böldükdən sonra, modelin təliminə başlayırıq 
 
-Modelin təlimi bitdikdən sonra 2024-01-05 - 2024-03-05 tarixləri arasındakı neftin qiymətini proqnozlaşdırırıq
+Modelin təlimi bitdikdən sonra **2024-01-05** - **2024-03-05** tarixləri arasındakı neftin qiymətini proqnozlaşdırırıq
 
 
 <img src="https://i.postimg.cc/Bn4Z5BQq/predict.png">
