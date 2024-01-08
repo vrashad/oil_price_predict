@@ -38,7 +38,7 @@ Cədvəl iki sütundan ibarət olacaq
 
 Sonra əldə edəcəyimiz modelin dəqiqliyini yoxlamaq üçün, keçmiş qiymətləri Test və Təlim dəsti olaraq iki yerə bölürük
 
-<img src="https://i.postimg.cc/MHCMKJzq/2.png">
+<img src="https://i.postimg.cc/GmVYhfxM/2.png">
 
 
 Sonra müxtəlif vaxt seriyası məlumat dəstlərinin ardıcıl təlim və test dəstlərinə bölmək yolu ilə zamanla necə dəyişdiyini vizuallaşdırırıq
@@ -46,4 +46,27 @@ Sonra müxtəlif vaxt seriyası məlumat dəstlərinin ardıcıl təlim və test
 <img src="https://i.postimg.cc/T3RNJK88/3.png">
 
 
- 
+Məlumatları təlim və test olaraq ikiyə böldükdən sonra, modelin təliminə başlayırıq 
+
+Modelin təlimi bitdikdən sonra 2024-01-05 - 2024-03-05 tarixləri arasındakı neftin qiymətini proqnozlaşdırırıq
+
+
+<img src="https://i.postimg.cc/Bn4Z5BQq/predict.png">
+
+```bash
+2024-01-05    73.640884
+2024-01-06    65.423943
+2024-01-07    71.382263
+2024-01-08    71.616516
+2024-01-09    71.890381
+                ...    
+2024-03-01    61.736660
+2024-03-02    61.733318
+2024-03-03    61.733318
+2024-03-04    63.970024
+2024-03-05    62.605045
+Name: pred, Length: 61, dtype: float32
+```
+
+Nəticədən göründüyü kimi, model fevral ayında xam neftin qiymətinin 61-63 dollar civarında olacağını proqnozlaşdırır
+
