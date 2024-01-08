@@ -26,4 +26,24 @@ Cədvəl iki sütundan ibarət olacaq
 
 **Date**: tarix<br>
 **Adj Close**: həmin tarixdəki neftin qiyməti
+
+ Dataset hazır olandan sonra **Oil_price_predict_xgboost.ipynb** Jupyter Notebook faylını ya local olaraq ya da Google Colab kimi Cloud servislərinin birində açırıq
+
+ İlk olaraq **dataset.csv** faylını DataFrame çeviririk və matplotlib.pyplot vasitəsilə neftin keçmiş qiymət qrafikini ekrana çıxardırıq
+
+<img src="https://i.postimg.cc/PfpCNJ94/1.png">
+
+ Vizual olaraq görününr ki, neftin qiymətinin dəyişməsində tendensiya müşahidə olunur
+
+
+Sonra əldə edəcəyimiz modelin dəqiqliyini yoxlamaq üçün, keçmiş qiymətləri Test və Təlim dəsti olaraq iki yerə bölürük
+
+<img src="https://i.postimg.cc/MHCMKJzq/2.png">
+
+
+Sonra müxtəlif vaxt seriyası məlumat dəstlərinin ardıcıl təlim və test dəstlərinə bölmək yolu ilə zamanla necə dəyişdiyini vizuallaşdırırıq
+
+<img src="https://i.postimg.cc/T3RNJK88/3.png">
+
+
  
